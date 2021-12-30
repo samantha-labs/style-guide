@@ -18,8 +18,8 @@ They must not include a _Byte Order Mark_ (**BOM**), represented as `U+FEFF`.
 <details>
 <summary><em>Code editors and BOMs</em></summary>
 
-  * **Microsoft Notepad**: Most versions of Microsoft Notepad will always insert a BOM. This no longer happens in Windows 10 May 2019 Update (Version 1903, build 10.0.18362) _However_, we do not support Microsoft Notepad as a suggested code editor for writing software.
-  * **Visual Studio Code**: Visual Studio Code supports saving files with different encodings.
+  * **Microsoft Notepad**: Most versions of Microsoft Notepad will always insert a BOM. This no longer happens in the Windows 10 May 2019 Update (Version 1903, build 10.0.18362).[^so-windows-10-notepad-bom] _However_, we do not support Microsoft Notepad as a suggested code editor for writing software.
+  * **Visual Studio Code**: Visual Studio Code supports [saving files with different encodings](https://code.visualstudio.com/docs/editor/codebasics#_file-encoding-support).
     - To set the default file encoding:
         - Go to "Settings" (`Ctrl + ,` / `Cmd + ,`)
         - Text Editor → Files → Files: Encoding → "UTF-8"
@@ -92,3 +92,4 @@ Thank you to the following style guides for inspiration!
 * [MediaWiki Coding Conventions](https://www.mediawiki.org/wiki/Manual:Coding_conventions)
 * [Microsoft C# Coding Conventions](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
 * [PSR-12: Extended Coding Style](https://www.php-fig.org/psr/psr-12/)
+[^so-windows-10-notepad-bom]: https://stackoverflow.com/a/57210570/7368162
