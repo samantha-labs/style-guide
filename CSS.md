@@ -55,7 +55,7 @@ These properties are:
 
 /* good */
 .foo {
-	padding: 1rem 0;
+	padding: 1rem;
 }
 ```
 ### Vendor prefixes
