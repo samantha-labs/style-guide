@@ -4,6 +4,7 @@ different repositories. A consistent codebase helps to reduce the risk of bugs a
 
 The following guides are available:
 * [TypeScript and React](./TS-JS-REACT.md)
+* [CSS](./CSS.md)
 
 There is a work-in-progress guide for Rust.
 
