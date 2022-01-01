@@ -24,25 +24,25 @@ Avoid referencing the HTML tag in the selector. Use as little specificity as pos
 ## Properties
 ### Order
 Properties are ordered by their type, then alphabetically (roughly). These groups are:
-* Positioning, DOM, transforms
-* Background and box-shadow
-* Text
-* Animations and transitions
+ * Positioning, DOM, transforms
+ * Background and box-shadow
+ * Text
+ * Animations and transitions
 
 ### Shorthand
 Use shorthand properties where possible. These let you condense multiple properties into one.
 Examples include:
- * `background`: `background-attachment`, `background-clip`, background-c
+ * `background`
  * `border`
  *  `border-radius`
- * `inset` (`top`, `right`, `bottom`, `left`)
+ * `inset`
 
 There are a few exceptions where certain shorthand properties make CSS code harder to read. 
 These properties are:
-* `flex`
-* `font`
-* `font-variation-settings`
-* `grid`
+ * `flex`
+ * `font`
+ * `font-variation-settings`
+ * `grid`
 
 ```css
 /* bad */
