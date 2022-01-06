@@ -9,7 +9,7 @@ The following guides are available:
 There is a work-in-progress guide for Rust.
 
 ## Files
-### File N~~e~~wlines
+### File Newlines
 Files should use Unix-style newlines, LF (Line Feed). Do not use CR+LF (Carriage Return + Line Feed).
 
 ### File Encoding
