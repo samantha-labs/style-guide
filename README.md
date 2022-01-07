@@ -1,12 +1,17 @@
-# Coding Style Guide
-Coding style guides are a set of rules that are used to ensure that code is written in a consistent manner across
-different repositories. A consistent codebase helps to reduce the risk of bugs and makes software more maintainable, and allows developers to work together more effectively.
+<div align="center">
+
+<h1>📚 Coding Style Guide</h1>
+<em>A set of rules to ensure consistent code and best practices across software projects</em>
+</div>
+
+----
+Every guide is a living document; they are continuously updated to reflect the latest best practices.
 
 The following guides are available:
 * [TypeScript and React](./TS-JS-REACT.md)
 * [CSS](./CSS.md)
 
-There is a work-in-progress guide for Rust.
+> 🚧 **NOTE**: There is a work-in-progress guide for Rust.
 
 ## Files
 ### File Newlines
