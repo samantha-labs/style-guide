@@ -88,6 +88,16 @@ All z-index variables should appear in the same stylesheet, in order from least 
 	--z-index-dialog: 100;
 	--z-index-modal: 200;
 }
+
+.dialog {
+	z-index: var(--z-index-dialog);
+	/** ... */
+}
+
+.modal {
+	z-index: var(--z-index-modal);
+	/** ... */
+}
 ```
 
 Example components that can and **need** a z-index include overlay-like elements such as popups, dialogs, and tooltips.
@@ -107,7 +117,11 @@ To override a rule, use the same selector as the original rule containing those 
    * the hexadecimal notation now supports alpha transparency via `#rrggbbaa` notation (with `#rgba` as shorthand notation) [in newer browsers](https://caniuse.com/mdn-css_types_color_alpha_hexadecimal_notation)
    * the `rgb()` function now supports alpha transparency in [newer browsers](https://caniuse.com/mdn-css_types_color_rgb_function_accepts_alpha). Prefer `rgb()` over `rgba()`.
 
-Please keep in mind that the contrast between background and foreground colors are accessible. Use the WCAG 2.0 guidelines to determine if your design meets the minimum requirements. At a minimum it should meet AA, and ideally AAA if possible.
+
+#### Contrast
+Please keep in mind that the contrast between background and foreground colors are accessible according to WCAG 2.1 Guidelines.
+
+You can use the [Who Can Use](https://whocanuse.com/) tool to check for this. At a minimum it should meet AA, and ideally AAA if possible. This tool helps simulate different types of vision like deuteranopia and protanopia.
 
 > Unfortunately, the `color-contrast()` function [is still experimental](https://caniuse.com/mdn-css_types_color_color-contrast) and not supported by any browsers.
 >
@@ -133,7 +147,7 @@ padding: 0.5rem 0rem;
 padding: .5rem 0;
 ```
 
-## Best Practices
+## Best practices
 ### Avoid using absolute positioning
 Avoid using absolute positioning; `position: absolute;`. This takes the element out of the normal DOM flow, and creates a new *stacking context*.[^w3-stacking-context][^w3-pos-absolute]
 This declaration usually goes in hand with box inset properties (`top`/`right`/`bottom`/`left`) to set its location on the page. This often requires magic numbers, or complex `calc()` expression calls, making it hard to maintain.
