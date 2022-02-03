@@ -1,5 +1,5 @@
 [book]
-title = "Markdown Book"
+title = "Coding Style Guide"
 authors = ["Samantha"]
 language = "en"
 multilingual = false
@@ -12,7 +12,7 @@ create-missing = false
 edition = "2021"
 
 [output.html]
-git-repository-url = "https://github.com/samantha-labs/repo-template-markdown"
+git-repository-url = "https://github.com/samantha-labs/style-guide"
 
 [output.katex]
 [preprocessor.katex]
