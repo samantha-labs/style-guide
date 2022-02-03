@@ -1,7 +1,6 @@
 # 📚 Coding Style Guide
 
-> *A set of rules to ensure consistent code and best practices across software projects.*
-----
+A set of rules to ensure consistent code and best practices across software projects.
 
 Every guide is a living document; they are continuously updated to reflect the latest best practices.
 

@@ -1,0 +1,18 @@
+{
+	"MD001": true,
+	"MD002": {
+		"level": 1
+	},
+	"MD003": {
+		"style": "atx"
+	},
+	"MD004": {
+		"style": "consistent"
+	},
+	"MD010": {
+		"code_blocks": false
+	},
+	"MD013": false,
+	"MD033": false,
+	"MD040": true
+}
