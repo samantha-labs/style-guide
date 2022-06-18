@@ -8,7 +8,7 @@
 		"lint:fix": "npm run lint -- --fix"
 	},
 	"dependencies": {
-		"gh-pages": "3.2.3",
+		"gh-pages": "4.0.0",
 		"markdownlint-cli": "0.31.1"
 	}
 }
