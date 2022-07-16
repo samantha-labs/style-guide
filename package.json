@@ -9,6 +9,6 @@
 	},
 	"dependencies": {
 		"gh-pages": "3.2.3",
-		"markdownlint-cli": "0.31.1"
+		"markdownlint-cli": "0.32.0"
 	}
 }
